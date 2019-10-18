@@ -29,6 +29,10 @@ namespace Forknight.Controllers
         public IActionResult Privacy() {
             return View();
         }
+        public IActionResult Purchase() {
+            ViewData["Message"] = "Can you believe you're able to buy a fork?";
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error() {
