@@ -13,6 +13,7 @@ namespace Forknight.Data
 
         }
         public DbSet<Comment> Comment { get; set; }
+        public DbSet<Forknight.Models.Listing> Listing { get; set; }
 
     }
 }
