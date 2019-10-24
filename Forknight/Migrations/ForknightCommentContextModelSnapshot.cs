@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Forknight.Migrations
 {
-    [DbContext(typeof(ForknightCommentContext))]
+    [DbContext(typeof(ListingContext))]
     partial class ForknightCommentContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Forknight.Migrations
 {
-    [DbContext(typeof(ForknightCommentContext))]
+    [DbContext(typeof(ListingContext))]
     [Migration("20191020000840_InitialCreate")]
     partial class InitialCreate
     {
