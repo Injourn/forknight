@@ -32,8 +32,6 @@ namespace Forknight
 
             services.AddDbContext<ForknightCommentContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("ForknightCommentContext")));
-            services.AddDbContext<ForknightCommentContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("ListingContext")));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
